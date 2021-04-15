@@ -1,0 +1,56 @@
+/* Kommentar Cmd+Shift+7 */
+
+* {
+  box-sizing: border-box;
+  background-color: var(--c1);
+}
+
+:root {
+  --c1: #abc498;
+  --c2: #93a680;
+  --c3: #ccd9ce;
+  --c4: #5c7358;
+  --c5: #2d3935;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  font-weight: lighter;
+  color: mintcream;
+  line-height: 1.4;
+  margin: 0;
+}
+
+input,
+button,
+textarea {
+  font-size: inherit;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+.page-main {
+  margin: 40px;
+  display: grid;
+  grid-gap: 40px;
+}
+
+.button {
+  border-bottom: none;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+.image-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.social-media-logos {
+  display: flex;
+}
