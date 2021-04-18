@@ -1,0 +1,198 @@
+/* ubuntu-300 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''), url('./fonts/ubuntu-v15-latin-300.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/ubuntu-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('./fonts/ubuntu-v15-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/ubuntu-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-300italic - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 300;
+  src: local(''),
+    url('./fonts/ubuntu-v15-latin-300italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/ubuntu-v15-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-italic - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''), url('./fonts/ubuntu-v15-latin-italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/ubuntu-v15-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-500italic - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 500;
+  src: local(''),
+    url('./fonts/ubuntu-v15-latin-500italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/ubuntu-v15-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-500 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''), url('./fonts/ubuntu-v15-latin-500.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/ubuntu-v15-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('./fonts/ubuntu-v15-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/ubuntu-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ubuntu-700italic - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 700;
+  src: local(''),
+    url('./fonts/ubuntu-v15-latin-700italic.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/ubuntu-v15-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  box-sizing: border-box;
+  background-color: var(--c1);
+  font-family: 'Ubuntu';
+  line-height: 1.8;
+}
+
+:root {
+  --c1: #151515;
+  --c2: #d1ed5d;
+  --c3: #aacd17;
+}
+
+html {
+  width: 100%;
+}
+
+nav {
+  padding-bottom: 40px;
+  padding-left: 5px;
+}
+
+body {
+  color: mintcream;
+  margin: 0 25px 0 25px;
+  display: flexbox;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--c3);
+  margin: 0;
+}
+
+h2 {
+  font-weight: 500;
+  color: var(--c3);
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-left: 5px;
+  margin-top: 0;
+}
+
+p {
+  padding-left: 10px;
+  margin: 0;
+}
+
+small {
+  font-style: italic;
+  margin: 0;
+  padding-left: 5px;
+}
+
+strong {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 0;
+}
+
+a {
+  color: var(--c2);
+}
+
+.pic {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-top: 3px solid var(--c2);
+  border-bottom: 3px solid var(--c2);
+}
+
+dt {
+  font-weight: 700;
+  color: var(--c3);
+  padding-left: 10px;
+}
+
+dd {
+  font-style: italic;
+  margin: 0;
+  padding-left: 10px;
+}
+
+address {
+  padding-left: 10px;
+  font-style: normal;
+}
+
+.hello-text {
+  color: mintcream;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+.some-icons {
+  width: 60px;
+  border: 3px solid var(--c2);
+  border-radius: 50px;
+}
+
+.button {
+  background-color: mintcream;
+  color: var(--c1);
+  padding: 2px;
+}
