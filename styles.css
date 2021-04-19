@@ -157,6 +157,7 @@ a {
 .pic {
   display: block;
   max-width: 375px;
+  width: 100%;
   height: auto;
   border-top: 3px solid var(--c2);
   border-bottom: 3px solid var(--c2);
