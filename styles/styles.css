@@ -1,3 +1,6 @@
+@import './_base.css';
+@import './_variables.css';
+
 /* ubuntu-300 - latin */
 @font-face {
   font-family: 'Ubuntu';
@@ -86,6 +89,7 @@
   background-color: var(--c1);
   font-family: 'Ubuntu';
   line-height: 1.8;
+  max-width: 550px;
 }
 
 :root {
@@ -196,7 +200,7 @@ address {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
+  padding-right: 35px;
 }
 
 .button {
