@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  background-color: var(--c1);
+  font-family: 'Ubuntu';
+  line-height: 1.8;
+  max-width: 550px;
+}
+
+:root {
+  --c1: #151515;
+  --c2: #d1ed5d;
+  --c3: #aacd17;
+}
