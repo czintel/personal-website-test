@@ -192,6 +192,12 @@ address {
   border-radius: 50px;
 }
 
+.some-links {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 .button {
   background-color: mintcream;
   color: var(--c1);
