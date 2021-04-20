@@ -5,59 +5,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href=".styles/styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Christian Zintel</title>
 
   </head>
 
-  <header>
+  <header id="top">
 
     <h1>Christian Zintel</h1>
 
     <nav>
+      <a href="#about"class="button">About myself</a>
+      <a href="#skills"class="button">Skills</a>
+      <a href="#cv"class="button">CV</a>
       <a href="#contact" class="button">Get in touch</a>
-      <a href="#about"class="button">About</a>
     </nav>
 
-    <picture>
-      <img src="images/ProfilePhoto.jpeg" alt="" class="pic" />
-    </picture>
+    <figure class="pb-0">
+      <img src="images/ProfilePhoto.jpeg" alt="" class="borderlines-tb pic"/>
+      <figcaption class='hello-text pt-25 fs-i'>"Hello world! My name is Christian, I'm a 31 years old graphic designer from Hamburg,
+        Germany and I am currently participating in a full-time web developement
+        boot camp."</figcaption>
+    </figure>
 
-    <p class="hello-text"
-      >"Hello world! I'm Christian, 31 years old graphic designer from Hamburg,
-      Germany and I am currently participating in a full-time web developement
-      boot camp."</p
-    >
+
   </header>
 
-  <body>
-
-    <section class="interests-skills">
-
-      <h2>Interests</h2>
-
-      <ul>
-        <li>Coding</li>
-        <li>Video games</li>
-        <li>Tech and science</li>
-        <li>News and politics</li>
-        <li>Photography</li>
-        <li>Traveling</li>
-      </ul>
-
-
-      <h2>Skills</h2>
-
-      <ul>
-        <li>Graphic design</li>
-        <li>Print media</li>
-        <li>Branding</li>
-        <li>Creativity</li>
-        <li>Adobe Creative Cloud</li>
-        <li>Typography</li>
-      </ul>
-
-    </section>
+  <body class="my-25">
 
     <section class="about-me">
 
@@ -75,67 +49,90 @@
         </p>
 
 
-      <h2>Curriculum vitae</h2>
+        <section>
 
-        <h3># Working experience</h3>
-
-        <small>Only relevant positions listed</small>
-
-        <dl>
-          <dt>2015 to 2021</dt>
-          <dd><strong>DTP specialist</strong> for a cruise ship company in Hamburg, Germany</dd>
-          <br />
-          <dt>2014 to 2015</dt>
-          <dd><strong>Desktop publisher</strong> on-board cruise ships</dd>
-          <br />
-          <dt>2011 to 2014</dt>
-          <dd><strong>Freelance graphic designer</strong> while travelling</dd>
-          <br />
-          <dt>2009 to 2011</dt>
-          <dd><strong>Dual vocational training as a graphic designer</strong> at a marketing agency in Saarbrücken, Germany</dd>
-        </dl>
-        
-        <br>
-
-        <h3># Education</h3>
-
-        <dl>
-          <dt>2021</dt>
-          <dd><strong>Web developement boot camp</strong> at Neue Fische GmbH – School and Pool for Digital Talent in Hamburg, Germany</dd>
-          <br>
-          <dt>2015 to 2017</dt>
-          <dd><strong>Medienfachwirt (media specialist)</strong> at HKBiS Handelskammer Hamburg Bildungs-Service gGmbH in Hamburg, Germany</dd>
-          <br>  
-          </dd>
-          <dt>2013 to 2014</dt>
-          <dd> <strong>Business administration & Political science (B.Sc.)</strong> at Stockholm University, Sweden <strong>(discontinued)</strong></dd>
-          <br>
-          <dt>2009 to 2011</dt>
-          <dd><strong>Dual vocational training as a graphic designer</strong> at TGBBZ2 – Technisch-gewerbliches Berufsbildungszentrum 2 Saarbrücken, Germany
-            </dd>
-          <br>
-          <dt>2000 to 2009</dt>
-          <dd><strong>Abitur</strong> at Albertus-Magnus-Gymnasium in St. Ingbert, Germany</dd>
-        </dl>
-
+          <h2>Interests</h2>
+  
+          <ul class="pl-10">
+            <li>Coding</li>
+            <li>Video games</li>
+            <li>Tech and science</li>
+            <li>News and politics</li>
+            <li>Photography</li>
+            <li>Traveling</li>
+          </ul>
+        </section>
+  
+        <section>
+  
+          <h2 id="skills">Skills</h2>
+  
+          <ul class="pl-10">
+            <li>Graphic design</li>
+            <li>Print media</li>
+            <li>Branding</li>
+            <li>Creativity</li>
+            <li>Adobe Creative Cloud</li>
+            <li>Typography</li>
+          </ul>
+  
+        </section>
     </section>
 
-    <section class="contact-information">
+    <section id='cv'>
+        <h2>Curriculum vitae</h2>
 
-      <h2 id="contact">Contact Information</h2>
+          <section>
 
-        <address>
-          Mail: <a href="mailto:c.zintel@XXXXX.de">c.zintel@XXXXX.de</a><br />
-          Phone: <a href="tel:+491768603XXXX">+49 (0) 176 8603 XXXX</a><br />
-          Musterstraße 1 <br />
-          12345 Hamburg <br />
-          Germany<br />
-        </address>
+            <h3># Working experience <small>Only relevant positions listed</small></h3>
 
+            <dl>
+              <dt>2015 to 2021</dt>
+              <dd><strong>DTP specialist</strong> for a cruise ship company in Hamburg, Germany</dd>
+              <br />
+              <dt>2014 to 2015</dt>
+              <dd><strong>Desktop publisher</strong> on-board cruise ships</dd>
+              <br />
+              <dt>2011 to 2014</dt>
+              <dd><strong>Freelance graphic designer</strong> while travelling</dd>
+              <br />
+              <dt>2009 to 2011</dt>
+              <dd><strong>Dual vocational training as a graphic designer</strong> at a marketing agency in Saarbrücken, Germany</dd>
+            </dl>
+
+          </section>
+
+          <section>
+
+            <h3># Education</h3>
+
+              <dl>
+                <dt>2021</dt>
+                <dd><strong>Web developement boot camp</strong> at Neue Fische GmbH – School and Pool for Digital Talent in Hamburg, Germany</dd>
+                <br>
+                <dt>2015 to 2017</dt>
+                <dd><strong>Medienfachwirt (media specialist)</strong> at HKBiS Handelskammer Hamburg Bildungs-Service gGmbH in Hamburg, Germany</dd>
+                <br>  
+                </dd>
+                <dt>2013 to 2014</dt>
+                <dd> <strong>Business administration & Political science (B.Sc.)</strong> at Stockholm University, Sweden <strong>(discontinued)</strong></dd>
+                <br>
+                <dt>2009 to 2011</dt>
+                <dd><strong>Dual vocational training as a graphic designer</strong> at TGBBZ2 – Technisch-gewerbliches Berufsbildungszentrum 2 Saarbrücken, Germany
+                  </dd>
+                <br>
+                <dt>2000 to 2009</dt>
+                <dd><strong>Abitur</strong> at Albertus-Magnus-Gymnasium in St. Ingbert, Germany</dd>
+              </dl>
+
+          </section>
+    </section>
+
+    <section>
 
       <h2>Let's connect</h2>
       
-        <div class="some-links">
+        <div class="some-links pr-25">
           <a
             href="https://github.com/czintel"
             target="_blank"
@@ -166,6 +163,21 @@
             <img src="./images/png/linkedin.png" alt="Find me on LinkedIn" class="some-icons"
           /></a>
         </div>
+
+        <br>
+
+        <h2 id="contact">Contact Information</h2>
+
+        <address>
+          Mail: <a href="mailto:c.zintel@XXXXX.de">c.zintel@XXXXX.de</a><br />
+          Phone: <a href="tel:+491768603XXXX">+49 (0) 176 8603 XXXX</a><br />
+          Musterstraße 1 <br />
+          12345 Hamburg <br />
+          Germany<br />
+        </address>
+
+        <a href="#top" class="button">Back to the top</a>
+
 
     </section>
 

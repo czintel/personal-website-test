@@ -1,0 +1,6 @@
+.button {
+  background-color: mintcream;
+  color: var(--c1);
+  padding: 2px 5px;
+  margin-right: 5px;
+}

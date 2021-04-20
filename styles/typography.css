@@ -1,0 +1,61 @@
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--c3);
+  padding-bottom: 0;
+  padding-top: 25px;
+}
+
+h2 {
+  font-weight: 500;
+  color: var(--c3);
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+dt {
+  font-weight: 700;
+  padding-bottom: 0;
+  padding-left: 10px;
+  color: var(--c3);
+}
+
+dd {
+  font-style: italic;
+  padding-bottom: 0;
+  padding-left: 10px;
+}
+
+address {
+  font-style: normal;
+}
+
+small {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+strong {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0;
+}
+
+.fs-i {
+  font-style: italic;
+}
+
+.fs-n {
+  font-style: normal;
+}

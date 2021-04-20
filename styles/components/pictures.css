@@ -1,0 +1,7 @@
+.pic {
+  display: flex;
+  max-width: 375px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0;
+}
