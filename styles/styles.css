@@ -1,7 +1,7 @@
 @import './_base.css';
 @import './_fonts.css';
 @import './_utility.css';
-@import './typography.css';
+@import './_typography.css';
 @import './components/links.css';
 @import './components/social-media.css';
 @import './components/pictures.css';

@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My first (real) website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "npx htmlhint '**/*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czintel/personal-website.git"
+  },
+  "author": "Christian Zintel <c.zintel@yahoo.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czintel/personal-website/issues"
+  },
+  "homepage": "https://github.com/czintel/personal-website#readme",
+  "devDependencies": {
+    "htmlhint": "0.14.2",
+    "live-server": "1.2.1"
+  }
+}
