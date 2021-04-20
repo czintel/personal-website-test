@@ -4,13 +4,14 @@
   "description": "My first (real) website",
   "main": "index.js",
   "scripts": {
+    "dev": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/czintel/personal-website.git"
   },
-  "author": "",
+  "author": "Christian Zintel <c.zintel@yahoo.de>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/czintel/personal-website/issues"
