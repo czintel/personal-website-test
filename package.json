@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/czintel/personal-website/issues"
   },
-  "homepage": "https://github.com/czintel/personal-website#readme"
+  "homepage": "https://github.com/czintel/personal-website#readme",
+  "devDependencies": {
+    "live-server": "1.2.1"
+  }
 }
